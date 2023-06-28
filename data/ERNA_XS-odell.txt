@@ -1,0 +1,65 @@
+# @article{Dil09,
+#   title = {Stellar and Primordial Nucleosynthesis of $^{7}\mathrm{Be}$: Measurement of $^{3}\mathrm{He}(\ensuremath{\alpha},\ensuremath{\gamma})^{7}\mathrm{Be}$},
+#   author = {Di Leva, A. and Gialanella, L. and Kunz, R. and Rogalla, D. and Sch\"urmann, D. and Strieder, F. and De Cesare, M. and De Cesare, N. and D'Onofrio, A. and F\"ul\"op, Z. and Gy\"urky, G. and Imbriani, G. and Mangano, G. and Ordine, A. and Roca, V. and Rolfs, C. and Romano, M. and Somorjai, E. and Terrasi, F.},
+#   journal = {Phys. Rev. Lett.},
+#   volume = {102},
+#   issue = {23},
+#   pages = {232502},
+#   numpages = {4},
+#   year = {2009},
+#   month = {Jun},
+#   publisher = {American Physical Society},
+#   doi = {10.1103/PhysRevLett.102.232502},
+#   url = {https://link.aps.org/doi/10.1103/PhysRevLett.102.232502}
+# }
+# Systematic uncertainty: 5%
+# Column 1: Forward kinematic laboratory frame energy (MeV)
+# Column 2: Forward kinematic laboratory frame total cross section (barns)
+# Column 3: Forward kinematic laboratory frame total cross section uncertainty (barns)
+1.22922	1.139E-06	1.998E-07
+1.40632	1.458E-06	7.991E-08
+1.58167	1.588E-06	6.993E-08
+1.75702	1.958E-06	6.993E-08
+1.75702	1.858E-06	5.994E-08
+1.93238	2.158E-06	1.998E-08
+1.93238	2.188E-06	3.996E-08
+1.93413	2.158E-06	5.994E-08
+2.10948	2.438E-06	4.996E-08
+2.10948	2.438E-06	8.992E-08
+2.37251	2.788E-06	6.994E-08
+2.46019	3.057E-06	3.997E-08
+2.46019	3.028E-06	7.993E-08
+2.63729	3.267E-06	9.992E-08
+2.81264	3.367E-06	9.992E-08
+2.98799	3.837E-06	1.199E-07
+2.98799	3.857E-06	8.993E-08
+3.16335	4.007E-06	3.997E-08
+3.16335	3.947E-06	1.199E-07
+3.33870	4.487E-06	1.399E-07
+3.42813	4.377E-06	1.099E-07
+3.51580	4.917E-06	1.399E-07
+3.60348	4.867E-06	1.199E-07
+3.69115	4.957E-06	1.599E-07
+3.78058	4.947E-06	4.997E-08
+3.86651	5.237E-06	1.599E-07
+3.86651	5.197E-06	1.599E-07
+4.04186	5.317E-06	1.399E-07
+4.04361	5.327E-06	1.599E-07
+4.21896	5.537E-06	1.399E-07
+4.39607	5.966E-06	5.996E-08
+4.84322	6.696E-06	6.996E-08
+5.00980	7.196E-06	1.999E-07
+5.00980	7.096E-06	1.999E-07
+5.09923	7.656E-06	1.699E-07
+5.13430	7.456E-06	1.899E-07
+5.16762	7.856E-06	1.699E-07
+5.20444	7.596E-06	1.999E-07
+5.23776	7.586E-06	8.995E-08
+5.23951	7.896E-06	1.999E-07
+5.27458	7.626E-06	1.699E-07
+5.30965	7.596E-06	1.599E-07
+5.34472	7.596E-06	1.999E-07
+5.37979	7.456E-06	1.599E-07
+5.41662	7.726E-06	1.899E-07
+5.45344	7.356E-06	1.399E-07
+5.48851	7.296E-06	2.998E-07

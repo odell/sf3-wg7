@@ -1,0 +1,22 @@
+# @article{Sin04,
+#   title = {New Precision Measurement of the $^{3}\mathrm{H}\mathrm{e}(^{4}\mathrm{H}\mathrm{e},\ensuremath{\gamma})\text{ }^{7}\mathrm{B}\mathrm{e}$ Cross Section},
+#   author = {Singh, B. S. Nara and Hass, M. and Nir-El, Y. and Haquin, G.},
+#   journal = {Phys. Rev. Lett.},
+#   volume = {93},
+#   issue = {26},
+#   pages = {262503},
+#   numpages = {4},
+#   year = {2004},
+#   month = {Dec},
+#   publisher = {American Physical Society},
+#   doi = {10.1103/PhysRevLett.93.262503},
+#   url = {https://link.aps.org/doi/10.1103/PhysRevLett.93.262503}
+# }
+# Systematic uncertainty: 3.7%
+# Column 1: Forward kinematic laboratory frame energy (MeV)
+# Column 2: Forward kinematic laboratory frame total cross section (barns)
+# Column 3: Forward kinematic laboratory frame total cross section uncertainty (barns)
+0.73648	3.345E-07	2.436E-08
+0.88728	5.112E-07	4.028E-08
+1.07841	7.919E-07	3.515E-08
+1.66584	1.628E-06	2.949E-08

@@ -1,0 +1,26 @@
+# @article{Bro18,
+# title = {{ENDF/B-VIII.0: The 8th Major Release of the Nuclear Reaction Data Library with CIELO-project Cross Sections, New Standards and Thermal Scattering Data}},
+# journal = {Nuclear Data Sheets},
+# volume = {148},
+# pages = {1-142},
+# year = {2018},
+# note = {Special Issue on Nuclear Reaction Data},
+# issn = {0090-3752},
+# doi = {https://doi.org/10.1016/j.nds.2018.02.001},
+# url = {https://www.sciencedirect.com/science/article/pii/S0090375218300206},
+# author = {D.A. Brown and M.B. Chadwick and R. Capote and A.C. Kahler and A. Trkov and M.W. Herman and A.A. Sonzogni and Y. Danon and A.D. Carlson and M. Dunn and D.L. Smith and G.M. Hale and G. Arbanas and R. Arcilla and C.R. Bates and B. Beck and B. Becker and F. Brown and R.J. Casperson and J. Conlin and D.E. Cullen and M.-A. Descalle and R. Firestone and T. Gaines and K.H. Guber and A.I. Hawari and J. Holmes and T.D. Johnson and T. Kawano and B.C. Kiedrowski and A.J. Koning and S. Kopecky and L. Leal and J.P. Lestone and C. Lubitz and J.I. {MÃ¡rquez DamiÃ¡n} and C.M. Mattoon and E.A. McCutchan and S. Mughabghab and P. Navratil and D. Neudecker and G.P.A. Nobre and G. Noguere and M. Paris and M.T. Pigni and A.J. Plompen and B. Pritychenko and V.G. Pronyaev and D. Roubtsov and D. Rochman and P. Romano and P. Schillebeeckx and S. Simakov and M. Sin and I. Sirakov and B. Sleaford and V. Sobes and E.S. Soukhovitskii and I. Stetcu and P. Talou and I. Thompson and S. {van der Marck} and L. Welser-Sherrill and D. Wiarda and M. White and J.L. Wormald and R.Q. Wright and M. Zerkle and G. Å½erovnik and Y. Zhu},
+# abstract = {We describe the new ENDF/B-VIII.0 evaluated nuclear reaction data library. ENDF/B-VIII.0 fully incorporates the new IAEA standards, includes improved thermal neutron scattering data and uses new evaluated data from the CIELO project for neutron reactions on 1H, 16O, 56Fe, 235U, 238U and 239Pu described in companion papers in the present issue of Nuclear Data Sheets. The evaluations benefit from recent experimental data obtained in the U.S. and Europe, and improvements in theory and simulation. Notable advances include updated evaluated data for light nuclei, structural materials, actinides, fission energy release, prompt fission neutron and Î³-ray spectra, thermal neutron scattering data, and charged-particle reactions. Integral validation testing is shown for a wide range of criticality, reaction rate, and neutron transmission benchmarks. In general, integral validation performance of the library is improved relative to the previous ENDF/B-VII.1 library.}
+# }
+# Systematic uncertainty: 3%
+# Column 1: Forward kinematic laboratory frame energy (MeV)
+# Column 2: Forward kinematic laboratory frame total cross section (barns)
+# Column 3: Forward kinematic laboratory frame total cross section uncertainty (barns)
+0.57410	1.736E-07	5.260E-09
+0.74700	3.779E-07	8.251E-09
+0.90832	6.263E-07	1.423E-08
+1.01967	7.605E-07	2.091E-08
+1.23167	1.090E-06	2.907E-08
+1.39720	1.358E-06	2.619E-08
+2.16331	2.498E-06	4.542E-08
+2.16507	2.455E-06	4.547E-08
+

@@ -1,0 +1,36 @@
+# @article{Kon13,
+#   title = {{Astrophysical $S$ factor of ${}^{3}$He${(\ensuremath{\alpha},\ensuremath{\gamma})}^{7}$Be}},
+#   author = {Kontos, A. and Uberseder, E. and deBoer, R. and G\"orres, J. and Akers, C. and Best, A. and Couder, M. and Wiescher, M.},
+#   journal = {Phys. Rev. C},
+#   volume = {87},
+#   issue = {6},
+#   pages = {065804},
+#   numpages = {9},
+#   year = {2013},
+#   month = {Jun},
+#   publisher = {American Physical Society},
+#   doi = {10.1103/PhysRevC.87.065804},
+#   url = {https://link.aps.org/doi/10.1103/PhysRevC.87.065804}
+# }
+# Systematic uncertainty: 8%
+# Column 1: Forward kinematic laboratory frame energy (MeV)
+# Column 2: Forward kinematic laboratory frame total cross section (barns)
+# Column 3: Forward kinematic laboratory frame total cross section uncertainty (barns)
+0.53202	1.264E-07	8.782E-09
+0.67493	3.049E-07	2.053E-08
+0.83152	4.883E-07	2.357E-08
+1.04001	7.992E-07	3.986E-08
+1.17784	9.990E-07	5.550E-08
+1.17801	1.063E-06	8.460E-08
+1.42912	1.343E-06	6.248E-08
+1.50101	1.445E-06	8.548E-08
+1.58308	1.780E-06	9.861E-08
+1.66865	1.854E-06	1.078E-07
+1.74300	1.930E-06	8.269E-08
+1.90081	2.181E-06	1.072E-07
+1.97972	2.376E-06	1.205E-07
+2.02444	2.494E-06	1.313E-07
+2.22241	2.455E-06	1.726E-07
+2.40951	2.935E-06	1.563E-07
+2.54611	3.245E-06	2.132E-07
+

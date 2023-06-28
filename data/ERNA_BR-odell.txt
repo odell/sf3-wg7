@@ -1,0 +1,23 @@
+# @article{Dil09,
+#   title = {Stellar and Primordial Nucleosynthesis of $^{7}\mathrm{Be}$: Measurement of $^{3}\mathrm{He}(\ensuremath{\alpha},\ensuremath{\gamma})^{7}\mathrm{Be}$},
+#   author = {Di Leva, A. and Gialanella, L. and Kunz, R. and Rogalla, D. and Sch\"urmann, D. and Strieder, F. and De Cesare, M. and De Cesare, N. and D'Onofrio, A. and F\"ul\"op, Z. and Gy\"urky, G. and Imbriani, G. and Mangano, G. and Ordine, A. and Roca, V. and Rolfs, C. and Romano, M. and Somorjai, E. and Terrasi, F.},
+#   journal = {Phys. Rev. Lett.},
+#   volume = {102},
+#   issue = {23},
+#   pages = {232502},
+#   numpages = {4},
+#   year = {2009},
+#   month = {Jun},
+#   publisher = {American Physical Society},
+#   doi = {10.1103/PhysRevLett.102.232502},
+#   url = {https://link.aps.org/doi/10.1103/PhysRevLett.102.232502}
+# }
+# Column 1: Forward kinematic laboratory frame energy (MeV)
+# Column 2: Forward kinematic laboratory frame branching ratio (dimensionless)
+# Column 3: Forward kinematic laboratory frame branching ratio uncertainty (dimensionless)
+1.93237652	0.48	0.03
+2.460185352	0.46	0.02
+2.460185352	0.468	0.013
+3.163345955	0.45	0.02
+3.78058419	0.403	0.016
+4.553885502	0.42	0.02

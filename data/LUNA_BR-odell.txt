@@ -1,0 +1,21 @@
+# @article{Cos08,
+# title = {{The $^3$He$(\alpha,\gamma)^7$Be $S$-factor at solar energies: The prompt $\gamma$ experiment at LUNA}},
+# journal = {Nuclear Physics A},
+# volume = {814},
+# number = {1},
+# pages = {144-158},
+# year = {2008},
+# issn = {0375-9474},
+# doi = {https://doi.org/10.1016/j.nuclphysa.2008.09.014},
+# url = {https://www.sciencedirect.com/science/article/pii/S0375947408007197},
+# author = {H. Costantini and D. Bemmerer and F. Confortola and A. Formicola and Gy. Gyürky and P. Bezzon and R. Bonetti and C. Broggini and P. Corvisiero and Z. Elekes and Zs. Fülöp and G. Gervino and A. Guglielmetti and C. Gustavino and G. Imbriani and M. Junker and M. Laubenstein and A. Lemut and B. Limata and V. Lozza and M. Marta and R. Menegazzo and P. Prati and V. Roca and C. Rolfs and C. Rossi Alvarez and E. Somorjai and O. Straniero and F. Strieder and F. Terrasi and H.P. Trautvetter},
+# keywords = {, measured, deduced, Prompt  texhnique, HPGe detector in the Gran Sasso undreground laboratory, Comparison with other data},
+# abstract = {The He3(α,γ)Be7 process is a key reaction in both Big-Bang nucleosynthesis and p–p chain of Hydrogen Burning in Stars. A new measurement of the He3(α,γ)Be7 cross section has been performed at the INFN Gran Sasso underground laboratory by both the activation and the prompt γ detection methods. The present work reports full details of the prompt γ detection experiment, focusing on the determination of the systematic uncertainty. The final data, including activation measurements at LUNA, are compared with the results of the last generation experiments and two different theoretical models are used to obtain the S-factor at solar energies.}
+# }
+# Column 1: Forward kinematic laboratory frame energy (MeV)
+# Column 2: Forward kinematic laboratory frame branching ratio (dimensionless)
+# Column 3: Forward kinematic laboratory frame branching ratio uncertainty (dimensionless)
+0.301391519	0.417	0.02
+0.188369699	0.415	0.029
+0.165765335	0.38	0.03
+

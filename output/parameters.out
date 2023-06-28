@@ -1,0 +1,46 @@
+PHYSICAL LEVEL PARAMETERS (BOUNDARY CONDITION SET TO SHIFT AT E_LEVEL)
+
+J = 0.5-  E_level =   0.4291 MeV  ITERATIONS =     0
+  R =  1  l =   1  s =  0.5  C  =     3.600000 fm^(-1/2)  g_int =     1.151255 MeV^(1/2)   g_ext =  (0.000000,0.000000) MeV^(1/2) 
+  R =  2  L =  M1  s =  1.5  G  =     0.000000 meV        g_int =     0.000000 MeV^(1/2)   g_ext =  (0.000000,0.000000) MeV^(1/2) 
+  R =  3  L =  M1  s =  0.5  mu =     0.000000 nm         g_int =    -0.000000 MeV^(1/2)   g_ext =  (0.000000,0.000000) MeV^(1/2) 
+
+J = 0.5-  E_level =  21.6000 MeV  ITERATIONS =     0
+  R =  1  l =   1  s =  0.5  G  = 85891.700000 keV        g_int =    -2.960203 MeV^(1/2)   g_ext =  (0.000000,0.000000) MeV^(1/2) 
+  R =  2  L =  M1  s =  1.5  G  =     0.000000 meV        g_int =     0.000000 MeV^(1/2)   g_ext =  (0.000000,0.000000) MeV^(1/2) 
+  R =  3  L =  M1  s =  0.5  G  =     0.000000 meV        g_int =     0.000000 MeV^(1/2)   g_ext =  (0.000000,0.000000) MeV^(1/2) 
+
+J = 0.5+  E_level =  14.0000 MeV  ITERATIONS =     0
+  R =  1  l =   0  s =  0.5  G  = 21364.300000 keV        g_int =     1.637146 MeV^(1/2)   g_ext =  (0.000000,0.000000) MeV^(1/2) 
+  R =  2  L =  E1  s =  1.5  G  =     2.823030 keV        g_int =     1.810555 MeV^(1/2)   g_ext =  (0.141505,0.408428) MeV^(1/2) 
+  R =  3  L =  E1  s =  0.5  G  =   440.077000 eV         g_int =    -0.646650 MeV^(1/2)   g_ext = (-0.104851,-0.340524) MeV^(1/2) 
+
+J = 1.5-  E_level =   0.0000 MeV  ITERATIONS =     0
+  R =  1  l =   1  s =  0.5  C  =     3.700000 fm^(-1/2)  g_int =     0.930849 MeV^(1/2)   g_ext =  (0.000000,0.000000) MeV^(1/2) 
+  R =  2  L =  M1  s =  1.5  mu =     0.000000 nm         g_int =    -0.000000 MeV^(1/2)   g_ext =  (0.000000,0.000000) MeV^(1/2) 
+  R =  3  L =  M1  s =  0.5  G  =     0.000000 meV        g_int =     0.000000 MeV^(1/2)   g_ext =  (0.000000,0.000000) MeV^(1/2) 
+
+J = 1.5-  E_level =  21.6000 MeV  ITERATIONS =     0
+  R =  1  l =   1  s =  0.5  G  = 47658.300000 keV        g_int =    -2.193125 MeV^(1/2)   g_ext =  (0.000000,0.000000) MeV^(1/2) 
+  R =  2  L =  M1  s =  1.5  G  =     0.000000 meV        g_int =     0.000000 MeV^(1/2)   g_ext =  (0.000000,0.000000) MeV^(1/2) 
+  R =  3  L =  M1  s =  0.5  G  =     0.000000 meV        g_int =     0.000000 MeV^(1/2)   g_ext =  (0.000000,0.000000) MeV^(1/2) 
+
+J = 1.5+  E_level =  12.0000 MeV  ITERATIONS =     0
+  R =  1  l =   2  s =  0.5  G  = 10999.200000 keV        g_int =     1.436209 MeV^(1/2)   g_ext =  (0.000000,0.000000) MeV^(1/2) 
+  R =  2  L =  E1  s =  1.5  G  =     3.673440 keV        g_int =     2.884741 MeV^(1/2)   g_ext =  (0.068293,0.124356) MeV^(1/2) 
+  R =  3  L =  E1  s =  0.5  G  =   123.538000 eV         g_int =    -0.632442 MeV^(1/2)   g_ext =  (0.166787,0.332962) MeV^(1/2) 
+
+J = 2.5-  E_level =   7.0000 MeV  ITERATIONS =     0
+  R =  1  l =   3  s =  0.5  G  =  1900.000000 keV        g_int =     1.560250 MeV^(1/2)   g_ext =  (0.000000,0.000000) MeV^(1/2) 
+  R =  2  L =  M1  s =  1.5  G  =     0.000000 meV        g_int =     0.000000 MeV^(1/2)   g_ext =  (0.000000,0.000000) MeV^(1/2) 
+  R =  3  L =  E2  s =  0.5  G  =     0.000000 meV        g_int =     0.000000 MeV^(1/2)   g_ext =  (0.000000,0.000000) MeV^(1/2) 
+
+J = 2.5+  E_level =  12.0000 MeV  ITERATIONS =     0
+  R =  1  l =   2  s =  0.5  G  = 10467.100000 keV        g_int =     1.398684 MeV^(1/2)   g_ext =  (0.000000,0.000000) MeV^(1/2) 
+  R =  2  L =  E1  s =  1.5  G  =   100.000000 eV         g_int =     0.223108 MeV^(1/2)   g_ext =  (0.162913,0.296650) MeV^(1/2) 
+  R =  3  L =  M2  s =  0.5  G  =     0.000000 meV        g_int =     0.000000 MeV^(1/2)   g_ext =  (0.000000,0.000000) MeV^(1/2) 
+
+J = 3.5-  E_level =   4.5700 MeV  ITERATIONS =     0
+  R =  1  l =   3  s =  0.5  G  =   157.908000 keV        g_int =     0.923131 MeV^(1/2)   g_ext =  (0.000000,0.000000) MeV^(1/2) 
+  R =  2  L =  E2  s =  1.5  G  =    24.180700 meV        g_int =     0.558767 MeV^(1/2)   g_ext =  (0.952429,0.314773) MeV^(1/2) 
+
