@@ -158,6 +158,15 @@ def ln_likelihood(mu):
     return np.sum(-np.log(const.M_SQRT2PI*dy) - 0.5*((y-mu)/dy)**2)
 
 
+systematic_uncertainties = np.hstack((const.capture_syst, const.som_syst))
+
+def chi_squared(theta):
+    mu = calculate(theta)
+    fs = np.array(theta[azr.config.n1:])
+    chi2a = np.sum( ((y-mu)/dy)**2 )
+    chi2b = np.sum( ((fs - 1)/systematic_uncertainties)**2 )
+    return chi2a + chi2b
+
 '''
     log(Posterior)
 '''
