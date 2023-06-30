@@ -81,8 +81,8 @@ br = xs2
 br_err = xs3_err
 
 x = np.hstack((xs2_data[:, 0], xs_data[:, 0], xs1_data[:, 0]))
-y = np.hstack((br, xs_data[:, 5], scatter))
-dy = np.hstack((br_err, xs_data[:, 6], scatter_err))
+# y = np.hstack((br, xs_data[:, 5], scatter))
+# dy = np.hstack((br_err, xs_data[:, 6], scatter_err))
 
 nbr = xs2_data.shape[0]
 nxs = xs_data.shape[0]
@@ -119,15 +119,17 @@ def map_uncertainty(theta, ns):
     return c
 
 
-paneru_indices = np.arange(14, 24)
-
 def calculate(theta):
-    paneru, capture_gs, capture_es, capture_tot = azr.predict(theta)
+    sonik, capture_gs, capture_es, capture_tot = azr.predict(theta)
+
+    # data
+    bratio_data = capture_es.xs_com_data/capture_gs.xs_com_data
+    y = np.hstack((bratio_data, capture_tot.xs_com_data, sonik.xs_com_data))
+    dy = np.hstack((br_err, capture_tot.xs_err_com_data, sonik.xs_err_com_data))
+
 
     bratio = capture_es.xs_com_fit/capture_gs.xs_com_fit
-    sigma_tot = capture_tot.xs_com_fit
-    scatter_dxs = paneru.xs_com_fit
-    return np.hstack((bratio, sigma_tot, scatter_dxs))
+    return np.hstack((bratio, capture_tot.xs_com_fit, sonik.xs_com_fit)), y, dy
 
 
 starting_positions = azr.config.get_input_values().copy()
@@ -212,7 +214,7 @@ def ln_prior(theta):
     return np.sum([prior.logpdf(theta_i) for (prior, theta_i) in zip(priors, theta)])
 
 
-def ln_likelihood(mu):
+def ln_likelihood(mu, y, dy):
     return np.sum(-np.log(const.M_SQRT2PI*dy) - 0.5*((y-mu)/dy)**2)
 
 
@@ -228,8 +230,8 @@ def ln_posterior(theta):
     if lnpi == -np.inf:
         return -np.inf, -np.inf
 
-    mu = calculate(theta)
-    lnl = ln_likelihood(mu)
+    mu, y, dy = calculate(theta)
+    lnl = ln_likelihood(mu, y, dy)
     if np.isnan(lnl):
         return -np.inf, -np.inf
 
