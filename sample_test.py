@@ -51,11 +51,13 @@ sampler = emcee.EnsembleSampler(
     backend=backend
 )
 
-for sample in sampler.sample(p0, iterations=nsteps, progress=True, tune=True,
-                             thin_by=nthin):
-    try:
-        tau = sampler.get_autocorr_time()
-        if np.all(tau * 100 < sampler.iteration) and np.all(tau != np.zeros(model.azr.config.nd)):
-            break
-    except:
-        pass
+sampler.run_mcmc(p0, nsteps, progress=True, tune=True, thin_by=nthin)
+
+# for sample in sampler.sample(p0, iterations=nsteps, progress=True, tune=True,
+#                              thin_by=nthin):
+#     try:
+#         tau = sampler.get_autocorr_time()
+#         if np.all(tau * 100 < sampler.iteration) and np.all(tau != np.zeros(model.azr.config.nd)):
+#             break
+#     except:
+#         pass

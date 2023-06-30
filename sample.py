@@ -18,9 +18,9 @@ os.environ['OMP_NUM_THREADS'] = '1'
 import model_bayes as model
 
 ndim = model.ndim
-nwalkers = 96
+nwalkers = 57
 nsteps = 10000
-nthin = 10
+nthin = 50
 
 p0 = np.array([[dist.rvs() for dist in model.p0_dist] for i in range(nwalkers)])
 
@@ -51,11 +51,13 @@ sampler = emcee.EnsembleSampler(
     backend=backend
 )
 
-for sample in sampler.sample(p0, iterations=nsteps, progress=True, tune=True,
-                             thin_by=nthin):
-    try:
-        tau = sampler.get_autocorr_time()
-        if np.all(tau * 100 < sampler.iteration) and np.all(tau != np.zeros(model.azr.config.nd)):
-            break
-    except:
-        pass
+sampler.run_mcmc(p0, nsteps, progress=True, tune=True, thin_by=nthin)
+
+# for sample in sampler.sample(p0, iterations=nsteps, progress=True, tune=True,
+#                              thin_by=nthin):
+#     try:
+#         tau = sampler.get_autocorr_time()
+#         if np.all(tau * 100 < sampler.iteration) and np.all(tau != np.zeros(model.azr.config.nd)):
+#             break
+#     except:
+#         pass
