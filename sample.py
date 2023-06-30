@@ -20,7 +20,7 @@ import model_bayes as model
 ndim = model.ndim
 nwalkers = 57
 nsteps = 10000
-nthin = 50
+nthin = 10
 
 p0 = np.array([[dist.rvs() for dist in model.p0_dist] for i in range(nwalkers)])
 

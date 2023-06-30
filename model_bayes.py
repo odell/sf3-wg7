@@ -91,7 +91,7 @@ nscatter1 = xs1_data.shape[0]
 azr = AZR(input_filename)
 azr.ext_capture_file = 'output/intEC.dat'
 azr.root_directory = '/tmp/'
-azr.command = '/Applications/AZURE2.app/Contents/MacOS/AZURE2'
+# azr.command = '/Applications/AZURE2.app/Contents/MacOS/AZURE2'
 
 rpar_labels = [p.label for p in azr.parameters]
 
